@@ -1,0 +1,345 @@
+{
+  "workflow_id": "2026-09-12T10:09:21Z",
+  "scope": "flappy-kiro-game",
+  "started_at": "2026-09-12T10:09:21Z",
+  "stages": [
+    {
+      "stage_slug": "workspace-scaffold",
+      "started_at": "2026-09-12T10:09:21Z",
+      "completed_at": "2026-09-12T10:09:21Z",
+      "agent": "orchestrator",
+      "memory_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/initialization/workspace-scaffold/memory.md",
+      "memory_entries": null,
+      "memory_breakdown": null,
+      "sensor_firings": [],
+      "outcome": "approved",
+      "learnings_captured": {
+        "from_orchestrator": 0,
+        "from_user_addition": 0
+      }
+    },
+    {
+      "stage_slug": "workspace-detection",
+      "started_at": "2026-09-12T10:09:21Z",
+      "completed_at": "2026-09-12T10:09:21Z",
+      "agent": "orchestrator",
+      "memory_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/initialization/workspace-detection/memory.md",
+      "memory_entries": null,
+      "memory_breakdown": null,
+      "sensor_firings": [],
+      "outcome": "approved",
+      "learnings_captured": {
+        "from_orchestrator": 0,
+        "from_user_addition": 0
+      }
+    },
+    {
+      "stage_slug": "state-init",
+      "started_at": "2026-09-12T10:09:21Z",
+      "completed_at": "2026-09-12T10:09:21Z",
+      "agent": "orchestrator",
+      "memory_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/initialization/state-init/memory.md",
+      "memory_entries": null,
+      "memory_breakdown": null,
+      "sensor_firings": [],
+      "outcome": "approved",
+      "learnings_captured": {
+        "from_orchestrator": 0,
+        "from_user_addition": 0
+      }
+    },
+    {
+      "stage_slug": "intent-capture",
+      "started_at": "2026-09-12T10:09:21Z",
+      "completed_at": null,
+      "agent": "aidlc-product-agent",
+      "memory_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/ideation/intent-capture/memory.md",
+      "memory_entries": 0,
+      "memory_breakdown": {
+        "interpretations": 0,
+        "deviations": 0,
+        "tradeoffs": 0,
+        "open_questions": 0
+      },
+      "sensor_firings": [
+        {
+          "id": "claim-sources",
+          "fire_id": "e310b5f2",
+          "result": "passed",
+          "ts": "2026-09-12T10:10:10Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "070034e5",
+          "result": "passed",
+          "ts": "2026-09-12T10:10:10Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "69085079",
+          "result": "passed",
+          "ts": "2026-09-12T10:10:11Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "92393557",
+          "result": "passed",
+          "ts": "2026-09-12T10:10:42Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "4df49073",
+          "result": "passed",
+          "ts": "2026-09-12T10:10:43Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "c0fbda9a",
+          "result": "passed",
+          "ts": "2026-09-12T10:10:43Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "95bd771d",
+          "result": "passed",
+          "ts": "2026-09-12T10:15:52Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "1952a58b",
+          "result": "passed",
+          "ts": "2026-09-12T10:15:52Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "bf70808c",
+          "result": "passed",
+          "ts": "2026-09-12T10:15:52Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "c655d2f1",
+          "result": "passed",
+          "ts": "2026-09-12T10:16:54Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "96659548",
+          "result": "passed",
+          "ts": "2026-09-12T10:16:54Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "65320b1f",
+          "result": "passed",
+          "ts": "2026-09-12T10:16:54Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "010cb1e1",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:00Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "c111a2b3",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:00Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "0069ef7a",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:00Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "3710e960",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:16Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "b30a0679",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:16Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "28e2d746",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:16Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "73175e12",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:28Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "7cffca3a",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:28Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "c0c08309",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:28Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "757b2278",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:33Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "5539846e",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:33Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "fa4ac0d1",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:33Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "4e496c72",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:39Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "dfe32846",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:39Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "ec7048af",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:39Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "7665d73a",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:45Z"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "7f236121",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:45Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "a9083f5a",
+          "result": "passed",
+          "ts": "2026-09-12T10:17:45Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "61f32c3f",
+          "result": "failed",
+          "ts": "2026-09-12T10:21:03Z",
+          "detail_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/.aidlc-sensors/intent-capture/claim-sources-61f32c3f.md"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "f2812d32",
+          "result": "passed",
+          "ts": "2026-09-12T10:21:03Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "0a4e9566",
+          "result": "passed",
+          "ts": "2026-09-12T10:21:03Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "1ec3f288",
+          "result": "failed",
+          "ts": "2026-09-12T10:21:22Z",
+          "detail_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/.aidlc-sensors/intent-capture/claim-sources-1ec3f288.md"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "577846ec",
+          "result": "passed",
+          "ts": "2026-09-12T10:21:22Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "c9008f05",
+          "result": "passed",
+          "ts": "2026-09-12T10:21:22Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "57d77384",
+          "result": "failed",
+          "ts": "2026-09-12T10:22:17Z",
+          "detail_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/.aidlc-sensors/intent-capture/claim-sources-57d77384.md"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "f82bedae",
+          "result": "passed",
+          "ts": "2026-09-12T10:22:17Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "8a20c1a5",
+          "result": "passed",
+          "ts": "2026-09-12T10:22:17Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "99991d50",
+          "result": "failed",
+          "ts": "2026-09-12T11:00:24Z",
+          "detail_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/.aidlc-sensors/intent-capture/claim-sources-99991d50.md"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "fe607d96",
+          "result": "passed",
+          "ts": "2026-09-12T11:00:24Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "555e22ea",
+          "result": "passed",
+          "ts": "2026-09-12T11:00:24Z"
+        },
+        {
+          "id": "claim-sources",
+          "fire_id": "10fb0f19",
+          "result": "failed",
+          "ts": "2026-09-12T11:00:33Z",
+          "detail_path": "aidlc/spaces/default/intents/260912-flappy-kiro-game/.aidlc-sensors/intent-capture/claim-sources-10fb0f19.md"
+        },
+        {
+          "id": "required-sections",
+          "fire_id": "6b744d9c",
+          "result": "passed",
+          "ts": "2026-09-12T11:00:33Z"
+        },
+        {
+          "id": "upstream-coverage",
+          "fire_id": "21e5e51a",
+          "result": "passed",
+          "ts": "2026-09-12T11:00:33Z"
+        }
+      ],
+      "outcome": "pending",
+      "learnings_captured": null
+    }
+  ]
+}
